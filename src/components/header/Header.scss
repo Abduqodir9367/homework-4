@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  position: relative;
+}
+.container {
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+header {
+  .nav {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    padding-top: 20px;
+    #slct1 {
+      width: 110px;
+      padding: 10px;
+      outline: none;
+      border: 1px solid #ccc;
+      padding: 10px 10px;
+      border-radius: 10px;
+      &:hover {
+        cursor: pointer;
+      }
+    }
+    .inpt {
+      width: 950px;
+    }
+  }
+
+  .table {
+    thead {
+      .head-tab {
+        padding-top: 20px;
+        display: flex;
+        align-items: center;
+        .tab1 {
+          margin-left: 40px;
+        }
+        .tab2 {
+          margin-left: 180px;
+        }
+        .tab3 {
+          margin-left: 180px;
+        }
+        .tab4 {
+          margin-left: 180px;
+        }
+        .tab5 {
+          margin-left: 230px;
+        }
+      }
+    }
+  }
+
+  .kontakts {
+    display: flex;
+    margin-left: 10px;
+    tbody {
+      display: flex;
+      padding-top: 20px;
+      .h3 {
+        margin-left: 72px;
+      }
+      .h4 {
+        margin-left: 20px;
+      }
+      .h5 {
+        margin-left: 80px;
+      }
+      h2 {
+        font-size: 22px;
+        width: 200px;
+      }
+      h3 {
+        font-size: 22px;
+        width: 10px;
+        margin-right: 70px;
+      }
+      .btns {
+        display: flex;
+        align-items: center;
+        column-gap: 8px;
+        margin-left: 20px;
+        .edit {
+          background-color: rgb(98, 98, 255);
+          &:hover {
+            background-color: rgb(55, 55, 249);
+            transition: 0.3s;
+          }
+        }
+        .delete {
+          background-color: rgba(255, 0, 0, 0.759);
+          &:hover {
+            background-color: rgb(255, 0, 0);
+            transition: 0.3s;
+          }
+        }
+        button {
+          padding: 5px 10px;
+          border-radius: 5px;
+          border: none;
+        }
+      }
+    }
+  }
+}
